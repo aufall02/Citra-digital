@@ -13,4 +13,4 @@ def get_pixel(path):
 
 
 
-get_pixel('./images/img.png')
+get_pixel(r"D:\00-lail-lain\1500x500.jpeg")
