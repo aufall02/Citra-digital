@@ -2,7 +2,7 @@ import cv2 as cv
 
 def get_pixel(path):
     print('\n*********************************************')
-    print('************* GET PIXE ON IMAGE *************')
+    print('************* GET PIXEL ON IMAGE *************')
     img = cv.imread(path)
     for i in range(10):
         k = img[0,i]
@@ -13,4 +13,4 @@ def get_pixel(path):
 
 
 
-get_pixel(r"D:\00-lail-lain\1500x500.jpeg")
+get_pixel("./images/img.png")
